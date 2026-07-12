@@ -1,0 +1,15 @@
+# این فایل فقط برای مرجعه — مقادیرش رو در Railway زیر تب Variables وارد کنید، نه اینجا
+
+JWT_SECRET=change-this-to-a-long-random-secret
+ADMIN_USERNAME=admin
+ADMIN_PASSWORD=change-this-strong-password
+NODE_ENV=production
+
+# اتصال به سرویس پیامک sms.ir (برای ارسال واقعی پیامک)
+# API Key رو از پنل sms.ir بگیرید: بخش وب‌سرویس > REST API
+SMS_IR_API_KEY=your-sms-ir-api-key
+# شماره خط اختصاصی‌تون در sms.ir (فقط عدد، بدون فاصله)
+SMS_IR_LINE_NUMBER=30007xxxxxxx
+
+# جایگزین اختیاری: اگه به‌جای sms.ir از یک سرویس دیگه با وب‌هوک استفاده می‌کنید
+# SMS_WEBHOOK_URL=https://example.com/send-sms
